@@ -16,22 +16,73 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light" >
+        <!-- Container wrapper -->
+        <div class="container">
+
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#" style="   color: #fff;">
+                Your-logo
+            </a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarRightAlignExample" >
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing-section">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-section">Contact Us</a>
+                    </li>
+                    <!-- Navbar dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Action</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li> -->
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+
 
     <section class="home">
         <!-- Start Landing Page -->
         <div class="landing-page">
-            <header>
-                <div class="container">
-                    <a href="#" class="logo">Your <b>Website</b></a>
-                    <ul class="links">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Pricing</li>
-                        <li>Contact</li>
-                        <li>Button</li>
-                    </ul>
-                </div>
-            </header>
+
             <div class="content">
                 <div class="container">
                     <div class="info">
@@ -50,10 +101,83 @@
         <!-- End Landing Page -->
 
     </section>
+
+
+
+    </section>
+
+
+    <!-- START PRICING SECTION -->
+
+    <section class="section-pricing" style ="overflow: hidden;" id="pricing-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="header-section row">
+                        <div class="plans-buttons">
+                            <div class="col-lg-8">
+                                <span class="monthly active float-start">Monthly</span>
+                                <span class="yearly ">Yearly<span class="perc">-45%</span></span>
+                            </div>
+                        </div>
+                        <h2 class="title">Price & Plans</h2>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla volutpat,
+                            eros vitae pellentesque dignissim, leo sem dignissim dui, eu maximus justo eros a ex. Cras
+                            suscipit urna sed massa bibendum porta et quis est.</p>
+                        <p class="description">Donec eget iaculis lacus. Etiam quis dolor porttitor, congue dui vitae,
+                            bibendum lorem. Proin ullamcorper tempus ex. Donec et mauris diam. Phasellus ac auctor
+                            libero.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="plans d-flex align-items-center">
+                        <!-- Start Single Plan -->
+                        <div class="single-plan startup text-center">
+                            <div class="content">
+                                <h3 class="title">Startup</h3>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                    volutpat.</p>
+                                <div class="icon">
+                                    <img src="https://i.ibb.co/TK7tysc/icon1.png">
+                                </div>
+                                <div class="price">
+                                    <span class="dolar">$</span>
+                                    <span class="number">9</span>
+                                    <span class="plan-name">Monthly</span>
+                                </div>
+                                <a href="#" class="purchase-button">Purchase Now</a>
+                            </div>
+                        </div>
+                        <!-- / End Single Plan -->
+                        <!-- Start Single Plan -->
+                        <div class="single-plan agency active text-center">
+                            <div class="content">
+                                <h3 class="title">Agency</h3>
+                                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                                    volutpat.</p>
+                                <div class="icon">
+                                    <img src="https://i.ibb.co/34dR4ym/icon2.png">
+                                </div>
+                                <div class="price">
+                                    <span class="dolar">$</span>
+                                    <span class="number">99</span>
+                                    <span class="plan-name">Monthly</span>
+                                </div>
+                                <a href="#" class="purchase-button">Purchase Now</a>
+                            </div>
+                        </div>
+                        <!-- / End Single Plan -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- / END PRICING SECTION -->
     <!-- ... (Start of contact form) ... -->
 
-    <section class="service"
-        style="overflow: hidden;  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2042508-jpeg.jpg')">
+    <section class="section-contact" style="overflow: hidden;  " id="contact-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2 pt-5">
@@ -73,7 +197,7 @@
                         </div>
 
                         <div class="form-group p-3">
-                            <input type="text" class="form-control" placeholder="Phone" required >
+                            <input type="text" class="form-control" placeholder="Phone" required>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -94,12 +218,17 @@
 
     <!-- ... (End of contact form) ... -->
 
-
-    </section>
-    <script src="script.js"></script>
+    <!-- Add Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-rbs/5ztLc0DO/lR6ZzUHDmLk41QEdI2Q+r0Vq12IN7LCOJge6eqd1g3tM6LAVcbz" crossorigin="anonymous">
+    </script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Add Custom JS -->
+    <script src="script.js"></script>
 </body>
 
 </html>
