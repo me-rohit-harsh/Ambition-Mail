@@ -3,7 +3,7 @@ $(function () {
 
     "use strict";
 
-    $(".section-pricing .plans-buttons .col-lg-8 > span").on("click", function () {
+    $(".section-pricing .plans-buttons  > span").on("click", function () {
         $(this).siblings().removeClass("active").end().addClass("active");
     });
 
@@ -39,3 +39,7 @@ $(document).ready(function () {
     });
 });
 // Testimonial section js ends 
+
+// Accordian section starts js from here 
+
+// Accordina sectuion ends js here
