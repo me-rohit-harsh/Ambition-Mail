@@ -4,7 +4,9 @@ body {
   background-color: #f5f5f5;
   color: #444;
 }
-
+ul{
+  font-weight: 500;
+}
 main {
   display: block;
   position: relative;
